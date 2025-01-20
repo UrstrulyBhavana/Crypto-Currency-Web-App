@@ -73,3 +73,6 @@ setInterval(fetchPrices, 60000); // Update prices every minute
 ```
 
 ## Demo
+
+
+https://github.com/user-attachments/assets/9405401b-f326-48a3-9928-01802d22bec2
