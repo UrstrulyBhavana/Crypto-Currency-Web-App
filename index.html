@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Currency Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo" />
+            <ul>
+                <li><a href="#">Market</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">White Papers</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <a href="#" id="toggle-dark-mode" class="btn">Dark Mode</a>
+            <a href="#" class="btn" id="explore-more-btn">EXPLORE MORE</a>
+        </nav>
+
+        <div class="content">
+            <h1>BUY & <br> SELL <span>Crypto</span></h1>
+            <p>World's biggest Cryptocurrency exchange available on web <br> as well as mobile phone.</p>
+        </div>
+
+        <div class="coin-list">
+            <div class="coin">
+                <img src="images/bitcoin.png" />
+                <div>
+                    <h3 id="btc">$00</h3>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="images/ethereum.png" />
+                <div>
+                    <h3 id="eth">$00</h3>
+                    <p>Ethereum</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="images/dogecoin.png" />
+                <div>
+                    <h3 id="doge">$00</h3>
+                    <p>Dogecoin</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="converter" id="converter">
+            <h2>Crypto Converter</h2>
+            <input type="number" id="amount" placeholder="Enter amount" />
+            <select id="crypto">
+                <option value="bitcoin">Bitcoin</option>
+                <option value="ethereum">Ethereum</option>
+                <option value="dogecoin">Dogecoin</option>
+            </select>
+            <button onclick="convert()">Convert</button>
+            <p id="convertedAmount"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
