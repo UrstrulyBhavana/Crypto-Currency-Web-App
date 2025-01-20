@@ -1,5 +1,5 @@
 # 💰 CryptoExchange: A Modern Cryptocurrency Web App with Real-Time Prices and Conversion
----
+
 
 CryptoExchange is a dynamic web application that allows users to view real-time cryptocurrency prices and perform currency conversions seamlessly. This app features an intuitive user interface, a dark mode toggle for enhanced usability, and a smooth scrolling experience. Users can explore current values for Bitcoin, Ethereum, and Dogecoin, and convert currencies effortlessly using live data from the CoinGecko API. Built with modern HTML, CSS, and JavaScript, this project demonstrates interactive and responsive web development.
 
