@@ -1,4 +1,4 @@
-# 💰 CryptoExchange: A Modern Cryptocurrency Web App with Real-Time Prices and Conversion
+# 💰 CryptoVista – Real-Time Cryptocurrency Web App
 
 ---
 
