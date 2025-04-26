@@ -119,10 +119,7 @@ async function fetchPrices() {
 fetchPrices();
 setInterval(fetchPrices, 60000); // Update prices every minute
 ```
-
-
 ---
-
 
 ## 🙋‍♀️ Author
 
